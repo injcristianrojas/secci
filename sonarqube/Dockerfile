@@ -7,4 +7,3 @@ RUN wget -q https://github.com/dependency-check/dependency-check-sonar-plugin/re
 && wget -q https://github.com/Coveros/zap-sonar-plugin/releases/download/sonar-zap-plugin-2.2.0/sonar-zap-plugin-2.2.0.jar -P /opt/sonarqube/extensions/plugins
 
 USER sonarqube
-ENTRYPOINT ["/opt/sonarqube/bin/run.sh"]
