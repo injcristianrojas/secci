@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  sonarqube:
+    build:
+      context: ./sonarqube
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090"
+      - "9000:9000"
