@@ -14,8 +14,10 @@ services:
     build:
       context: ./jenkins
       dockerfile: Dockerfile
+    environment:
+      - JENKINS_OPTS="--httpPort=8585"
     ports:
-      - "8585:8080"
+      - "8585:8585"
       - "50000:50000"
   
   zap:
