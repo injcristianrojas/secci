@@ -6,3 +6,4 @@ dependency-track:latest
 git:latest
 workflow-aggregator:latest
 pipeline-stage-view:latest
+htmlpublisher:latest
